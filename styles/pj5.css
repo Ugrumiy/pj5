@@ -679,7 +679,7 @@ footer
     font-style: italic;
 }
 .form-item input[type='text'],
-.form-item input[type='textarea']
+.form-item textarea
 {
     font-size: 12px;
     font-style: italic;
@@ -703,9 +703,11 @@ footer
 {
     height: 24px;
 }
-.form-item input[type='textarea']
+.form-item textarea
 {
     height: 62px;
+
+    resize: none;
 }
 .form-item input[type='submit']
 {

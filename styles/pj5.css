@@ -667,10 +667,12 @@ footer
 
     content: url('../images/twitter-message-widget.png');
 }
-.twitter-item .message time
+.twitter-item .message .time
 {
     font-size: 12px;
     font-weight: 900;
+
+    color: #2a535e;
 }
 .twitter-item .message p
 {
